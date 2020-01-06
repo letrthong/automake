@@ -3,5 +3,5 @@
 int main(){
 
   func f;
- return 0;
+  return 0;
 }

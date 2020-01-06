@@ -12,9 +12,9 @@ file(GLOB SOURCES "src/*.cpp")
 #Generate the shared library from the sources
 add_library(testStudent SHARED ${SOURCES})
 
+#add_library(testStudent STATIC ${SOURCES})
+
 install(TARGETS testStudent DESTINATION /usr/lib)
 
-
-add_executable(runMain app/main.cpp)
 
  
